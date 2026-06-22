@@ -1,0 +1,4 @@
+# Open your crontab editor using: crontab -e
+
+# Format: Minute Hour DayOfMonth Month DayOfWeek Command
+0 8,16 * * * /usr/bin/python3 /path/to/your/car_scraper.py >> /path/to/your/scraper_output.log 2>&1
